@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+import os
+print("Download and install WordPress")
+os.system("wget https://wordpress.org/latest.zip");
+
+print("Extracting WordPress")
+os.system("unzip latest.zip");
+os.system("rm latest.zip");
+os.system("mv  wordpress/*.* .");
+os.system("mv  wordpress/* .");
+os.system("ls -l");
+os.system("rm -r wordpress");
+print("Awesome WordPress is ready")
+
+# os.system("ls -l")
