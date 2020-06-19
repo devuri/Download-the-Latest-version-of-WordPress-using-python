@@ -12,5 +12,4 @@ os.system("mv  wordpress/* .");
 os.system("ls -l");
 os.system("rm -r wordpress");
 print("Awesome WordPress is ready")
-
-# os.system("ls -l")
+os.system("rm wp-install");
